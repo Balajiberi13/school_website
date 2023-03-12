@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/jeev_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+    </section>
+
+    <!-------COURSE------>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>primary and secondary school education</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>KINDER GARTEN</h3>
+                <P>Kindergarten is a preschool educational approach based on playing, singing, practical activities such as drawing, and social interaction as part of the transition from home to school.
+
+                </P>
+            </div>
+            <div class="course-col">
+                <h3>PRIMARY SCHOOLING</h3>
+                <p>A primary school, junior school, elementary school or grade school is a school for primary education of children who are four to eleven years of age. Primary schooling follows pre-school and precedes secondary schooling</p>
+            </div>
+            <div class="course-col">
+                <h3>SECONDARY SCHOOLING</h3>
+                <p> a school intermediate between elementary school and college and usually offering general, technical, vocational, or college-preparatory courses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------facilities------>
+
+    <section class="facilities">
+        <h1>OUR FACILITIES</h1>
+        <p>Three basic facilities that every school should provide to the students are:</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>
+                    LIBRARY
+                </h3>
+                <p> a school intermediate between elementary school and college and usually offering general, technical, vocational, or college-preparatory courses.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/sports.png" alt="">
+                <h3>
+                    SPORTS
+                </h3>
+                <p> a school intermediate between elementary school and college and usually offering general, technical, vocational, or college-preparatory courses.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>
+                    TASTY AND HEALTHY FOOD
+                </h3>
+                <p> a school intermediate between elementary school and college and usually offering general, technical, vocational, or college-preparatory courses.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-------footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p> a school intermediate between elementary school and college and usually offering general, <br>technical, vocational, or college-preparatory courses.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Balaji Beri</p>
+    </section>
+
+
+
+    <!----script---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu() {
+            navLinks.style.right = "0px";
+        }
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
